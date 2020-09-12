@@ -20,5 +20,6 @@ public class TestArthematic {
 	public void testSum()
 	{
 		assertEquals(10, arth.sum(4, 6));
+		assertEquals(11, arth.sum(4, 6) );
 	}
 }
